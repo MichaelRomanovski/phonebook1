@@ -1,3 +1,4 @@
+import object_model.Contact_model;
 import object_model.User_model;
 import org.testng.annotations.DataProvider;
 
@@ -17,6 +18,7 @@ public class Data_Provider {
             String[] split = line.split(",");
             list.add(new Object[]{
                     User_model.builder().email(split[0]).password(split[1]).build()
+                    //Contact_model.builder().name
             });
             line = reader.readLine();
         }
@@ -28,4 +30,10 @@ public class Data_Provider {
 
 
     }
+
+
+
+
+
+
 }

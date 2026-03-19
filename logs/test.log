@@ -1,14 +1,15 @@
-17:29:06.359 [Test worker] INFO  TestBase - Started test ---> testLogin
-17:29:06.375 [Test worker] INFO  NGListener - Start of the test ---> testLogin
-17:29:06.383 [Test worker] INFO  TestBase - Finished test ---> testLogin
-17:29:06.385 [Test worker] INFO  TestBase - =====================================================================================================
-17:29:35.701 [Test worker] INFO  TestBase - Started test ---> testLogin
-17:29:35.712 [Test worker] INFO  NGListener - Start of the test ---> testLogin
-17:29:41.257 [Test worker] INFO  NGListener - Success test ---> testLogin
-17:29:41.260 [Test worker] INFO  TestBase - Finished test ---> testLogin
-17:29:41.262 [Test worker] INFO  TestBase - =====================================================================================================
-17:30:14.583 [Test worker] INFO  TestBase - Started test ---> add_contact
-17:30:30.636 [Test worker] INFO  NGListener - Start of the test ---> add_contact
-17:30:37.617 [Test worker] INFO  NGListener - Success test ---> add_contact
-17:30:37.619 [Test worker] INFO  TestBase - Finished test ---> add_contact
-17:30:37.623 [Test worker] INFO  TestBase - =====================================================================================================
+20:40:00.257 [Test worker] INFO  TestBase - Started test ---> testRegistration_negative_empty_email
+20:40:00.271 [Test worker] INFO  NGListener - Start of the test ---> testRegistration_negative_empty_email
+20:40:05.445 [Test worker] INFO  NGListener - Success test ---> testRegistration_negative_empty_email
+20:40:05.451 [Test worker] INFO  TestBase - Finished test ---> testRegistration_negative_empty_email
+20:40:05.455 [Test worker] INFO  TestBase - =====================================================================================================
+20:41:26.486 [Test worker] INFO  TestBase - Started test ---> testRegistration_negative_empty_password
+20:41:26.486 [Test worker] INFO  NGListener - Start of the test ---> testRegistration_negative_empty_password
+20:41:31.568 [Test worker] INFO  NGListener - Success test ---> testRegistration_negative_empty_password
+20:41:31.572 [Test worker] INFO  TestBase - Finished test ---> testRegistration_negative_empty_password
+20:41:31.572 [Test worker] INFO  TestBase - =====================================================================================================
+21:03:02.731 [Test worker] INFO  TestBase - Started test ---> testRegistration_negative_user_already_exist
+21:03:02.738 [Test worker] INFO  NGListener - Start of the test ---> testRegistration_negative_user_already_exist
+21:03:08.174 [Test worker] INFO  NGListener - Success test ---> testRegistration_negative_user_already_exist
+21:03:08.181 [Test worker] INFO  TestBase - Finished test ---> testRegistration_negative_user_already_exist
+21:03:08.182 [Test worker] INFO  TestBase - =====================================================================================================
