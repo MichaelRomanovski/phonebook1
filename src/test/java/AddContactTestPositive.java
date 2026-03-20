@@ -5,7 +5,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 @Listeners(NGListener.class)
-public class AddContactTest extends TestBase {
+public class AddContactTestPositive extends TestBase {
     @BeforeMethod(alwaysRun = true)
     public void login_before_add_contact() {
         HelperUser user = new HelperUser(app.wd);

@@ -42,10 +42,12 @@ public class NGListener implements ITestListener {
     @Override
     public void onStart(ITestContext context) {
         ITestListener.super.onStart(context);
+        log.info("Test started");
     }
 
     @Override
     public void onFinish(ITestContext context) {
         ITestListener.super.onFinish(context);
+        log.info("Test finished");
     }
 }

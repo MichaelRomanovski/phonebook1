@@ -8,7 +8,6 @@ import org.slf4j.LoggerFactory;
 public class LoginRegistrationPage extends HelperUser {
 
 
-    Logger logger = LoggerFactory.getLogger(UPSTART.class);
 
 
     public LoginRegistrationPage(WebDriver driver) {
