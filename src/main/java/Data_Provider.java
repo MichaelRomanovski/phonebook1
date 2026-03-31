@@ -16,9 +16,12 @@ public class Data_Provider {
         while (line != null) {
 
             String[] split = line.split(",");
+            String type=split[0];
+            String email=split[1];
+            String password=split[2];
+            String expectedMessage=split[3];
             list.add(new Object[]{
-                    User_model.builder().email(split[0]).password(split[1]).build()
-                    //Contact_model.builder().name
+                    type,User_model.builder().email(split[0]).password(split[1]).build(),expectedMessage
             });
             line = reader.readLine();
         }

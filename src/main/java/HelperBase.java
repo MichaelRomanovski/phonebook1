@@ -17,7 +17,7 @@ public class HelperBase {
 
 
     public boolean isElementPresent(By locator){
-        return driver.findElements(locator).size()>0;
+        return !driver.findElements(locator).isEmpty();
     }
 
 
@@ -47,7 +47,6 @@ public class HelperBase {
     }
 
 
-
 public WebElement wait_for(WebElement element){
         return new WebDriverWait(driver, Duration.ofSeconds(5)).until(ExpectedConditions.visibilityOf(element));
 
@@ -55,10 +54,6 @@ public WebElement wait_for(WebElement element){
 
 
 }
-
-
-
-
 
 
 
