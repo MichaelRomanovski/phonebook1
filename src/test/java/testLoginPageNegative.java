@@ -7,7 +7,6 @@ public class testLoginPageNegative extends TestBase{
 
 @BeforeSuite
 public void go_to_login(){
-
     new HomePageScreen(app.wd).go_to_login_page();
 
 }
