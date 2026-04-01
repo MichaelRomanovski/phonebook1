@@ -55,14 +55,14 @@ ADD_LINK.click();
 
     }
 
-    public void scrollingList() {
+    public ContactPage scrollingList() {
 pause(2000);
 
         WebElement lastItem = contactList.get(contactList.size() - 1);
         Actions actions=new Actions(driver);
         actions.moveToElement(lastItem).perform();
         lastItem.click();
-
+return this;
       }
 
 

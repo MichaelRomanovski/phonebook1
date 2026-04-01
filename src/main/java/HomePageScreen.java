@@ -22,10 +22,10 @@ private  WebElement login_link;
 
 
 
-    public void ckickonHome() {
+    public HomePageScreen ckickonHome() {
 
         elementHome.click();
-
+return this;
     }
 
     public boolean is_element_Home_present() {
@@ -35,9 +35,10 @@ private  WebElement login_link;
     }
 
 
-    public void go_to_login_page(){
+    public LoginRegistrationPage go_to_login_page(){
 
         login_link.click();
+        return new LoginRegistrationPage(driver);
     }
 
 

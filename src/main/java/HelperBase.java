@@ -15,12 +15,14 @@ public class HelperBase {
         PageFactory.initElements(driver, this);
     }
 
-
-    public boolean isElementPresent(By locator){
-        return !driver.findElements(locator).isEmpty();
+    public boolean isElementPresent(By locator) {
+        try {
+           driver.findElement(locator);
+            return true;
+        } catch (NoSuchElementException e) {
+            return false;
+        }
     }
-
-
 
     public void pause(int millis) {
         try {

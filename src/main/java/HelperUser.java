@@ -13,11 +13,11 @@ public class HelperUser extends HelperBase {
         return isElementPresent(By.xpath("//*[.='Sign Out']"));
     }
 
-    public void login(String email,String password)
+    public ContactPage login(String email,String password)
     {
     new LoginRegistrationPage(driver).type_field_email_and_password(email,password);
     new LoginRegistrationPage(driver).click_on_LOGIN_btn();
-
+return new ContactPage(driver);
 
     }
 

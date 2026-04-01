@@ -1,15 +1,193 @@
-20:40:00.257 [Test worker] INFO  TestBase - Started test ---> testRegistration_negative_empty_email
-20:40:00.271 [Test worker] INFO  NGListener - Start of the test ---> testRegistration_negative_empty_email
-20:40:05.445 [Test worker] INFO  NGListener - Success test ---> testRegistration_negative_empty_email
-20:40:05.451 [Test worker] INFO  TestBase - Finished test ---> testRegistration_negative_empty_email
-20:40:05.455 [Test worker] INFO  TestBase - =====================================================================================================
-20:41:26.486 [Test worker] INFO  TestBase - Started test ---> testRegistration_negative_empty_password
-20:41:26.486 [Test worker] INFO  NGListener - Start of the test ---> testRegistration_negative_empty_password
-20:41:31.568 [Test worker] INFO  NGListener - Success test ---> testRegistration_negative_empty_password
-20:41:31.572 [Test worker] INFO  TestBase - Finished test ---> testRegistration_negative_empty_password
-20:41:31.572 [Test worker] INFO  TestBase - =====================================================================================================
-21:03:02.731 [Test worker] INFO  TestBase - Started test ---> testRegistration_negative_user_already_exist
-21:03:02.738 [Test worker] INFO  NGListener - Start of the test ---> testRegistration_negative_user_already_exist
-21:03:08.174 [Test worker] INFO  NGListener - Success test ---> testRegistration_negative_user_already_exist
-21:03:08.181 [Test worker] INFO  TestBase - Finished test ---> testRegistration_negative_user_already_exist
-21:03:08.182 [Test worker] INFO  TestBase - =====================================================================================================
+00:10:50.433 [Test worker] INFO  NGListener - Test started
+00:10:50.474 [Test worker] INFO  TestBase - Started test ---> testRegistration
+00:10:50.474 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+00:10:50.474 [Test worker] INFO  NGListener - Success test ---> testRegistration
+00:10:50.474 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+00:10:50.474 [Test worker] INFO  TestBase - =====================================================================================================
+00:10:50.489 [Test worker] INFO  TestBase - Started test ---> testRegistration
+00:10:50.492 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+00:10:55.436 [Test worker] INFO  NGListener - Success test ---> testRegistration
+00:10:55.438 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+00:10:55.439 [Test worker] INFO  TestBase - =====================================================================================================
+00:10:55.444 [Test worker] INFO  TestBase - Started test ---> testRegistration
+00:10:55.448 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+00:11:00.147 [Test worker] INFO  NGListener - Success test ---> testRegistration
+00:11:00.150 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+00:11:00.154 [Test worker] INFO  TestBase - =====================================================================================================
+00:11:00.168 [Test worker] INFO  TestBase - Started test ---> testRegistration
+00:11:00.178 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+00:11:05.250 [Test worker] INFO  NGListener - Success test ---> testRegistration
+00:11:05.259 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+00:11:05.261 [Test worker] INFO  TestBase - =====================================================================================================
+00:11:05.282 [Test worker] INFO  NGListener - Test finished
+00:11:19.375 [Test worker] INFO  NGListener - Test started
+00:11:19.430 [Test worker] INFO  TestBase - Started test ---> testRegistration
+00:11:19.430 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+00:11:19.439 [Test worker] INFO  NGListener - Success test ---> testRegistration
+00:11:19.441 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+00:11:19.441 [Test worker] INFO  TestBase - =====================================================================================================
+00:11:19.446 [Test worker] INFO  TestBase - Started test ---> testRegistration
+00:11:19.447 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+00:11:24.578 [Test worker] INFO  NGListener - Success test ---> testRegistration
+00:11:24.579 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+00:11:24.581 [Test worker] INFO  TestBase - =====================================================================================================
+00:11:24.589 [Test worker] INFO  TestBase - Started test ---> testRegistration
+00:11:24.593 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+00:11:29.331 [Test worker] INFO  NGListener - Success test ---> testRegistration
+00:11:29.334 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+00:11:29.336 [Test worker] INFO  TestBase - =====================================================================================================
+00:11:29.342 [Test worker] INFO  TestBase - Started test ---> testRegistration
+00:11:29.342 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+00:11:34.047 [Test worker] INFO  NGListener - Success test ---> testRegistration
+00:11:34.048 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+00:11:34.052 [Test worker] INFO  TestBase - =====================================================================================================
+00:11:34.064 [Test worker] INFO  NGListener - Test finished
+00:18:47.611 [Test worker] INFO  NGListener - Test started
+00:18:47.655 [Test worker] INFO  TestBase - Started test ---> testRegistration
+00:18:47.658 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+00:18:47.658 [Test worker] INFO  NGListener - Success test ---> testRegistration
+00:18:47.658 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+00:18:47.658 [Test worker] INFO  TestBase - =====================================================================================================
+00:18:47.667 [Test worker] INFO  TestBase - Started test ---> testRegistration
+00:18:47.667 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+00:18:52.616 [Test worker] INFO  NGListener - Success test ---> testRegistration
+00:18:52.617 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+00:18:52.618 [Test worker] INFO  TestBase - =====================================================================================================
+00:18:52.620 [Test worker] INFO  TestBase - Started test ---> testRegistration
+00:18:52.621 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+00:18:57.435 [Test worker] INFO  NGListener - Success test ---> testRegistration
+00:18:57.448 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+00:18:57.450 [Test worker] INFO  TestBase - =====================================================================================================
+00:18:57.461 [Test worker] INFO  TestBase - Started test ---> testRegistration
+00:18:57.465 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+00:19:02.341 [Test worker] INFO  NGListener - Success test ---> testRegistration
+00:19:02.346 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+00:19:02.350 [Test worker] INFO  TestBase - =====================================================================================================
+00:19:02.361 [Test worker] INFO  NGListener - Test finished
+00:20:21.847 [Test worker] INFO  NGListener - Test started
+00:20:21.883 [Test worker] INFO  TestBase - Started test ---> testRegistration
+00:20:21.883 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+00:20:21.883 [Test worker] INFO  NGListener - Success test ---> testRegistration
+00:20:21.893 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+00:20:21.893 [Test worker] INFO  TestBase - =====================================================================================================
+00:20:21.893 [Test worker] INFO  TestBase - Started test ---> testRegistration
+00:20:21.893 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+00:20:26.822 [Test worker] INFO  NGListener - Success test ---> testRegistration
+00:20:26.824 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+00:20:26.826 [Test worker] INFO  TestBase - =====================================================================================================
+00:20:26.828 [Test worker] INFO  TestBase - Started test ---> testRegistration
+00:20:26.830 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+00:20:31.561 [Test worker] INFO  NGListener - Success test ---> testRegistration
+00:20:31.562 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+00:20:31.563 [Test worker] INFO  TestBase - =====================================================================================================
+00:20:31.574 [Test worker] INFO  NGListener - Test finished
+00:24:00.271 [Test worker] INFO  NGListener - Test started
+00:24:00.320 [Test worker] INFO  TestBase - Started test ---> testRegistration
+00:24:00.320 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+00:24:00.325 [Test worker] INFO  NGListener - Success test ---> testRegistration
+00:24:00.325 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+00:24:00.325 [Test worker] INFO  TestBase - =====================================================================================================
+00:24:00.333 [Test worker] INFO  TestBase - Started test ---> testRegistration
+00:24:00.336 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+00:24:05.351 [Test worker] INFO  NGListener - Success test ---> testRegistration
+00:24:05.353 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+00:24:05.354 [Test worker] INFO  TestBase - =====================================================================================================
+00:24:05.356 [Test worker] INFO  TestBase - Started test ---> testRegistration
+00:24:05.358 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+00:24:10.123 [Test worker] INFO  NGListener - Success test ---> testRegistration
+00:24:10.129 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+00:24:10.132 [Test worker] INFO  TestBase - =====================================================================================================
+00:24:10.142 [Test worker] INFO  NGListener - Test finished
+00:29:42.917 [Test worker] INFO  NGListener - Test started
+00:29:42.957 [Test worker] INFO  TestBase - Started test ---> testRegistration
+00:29:42.957 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+00:29:42.965 [Test worker] INFO  NGListener - Success test ---> testRegistration
+00:29:42.973 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+00:29:42.973 [Test worker] INFO  TestBase - =====================================================================================================
+00:29:42.975 [Test worker] INFO  TestBase - Started test ---> testRegistration
+00:29:42.975 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+00:29:47.914 [Test worker] INFO  NGListener - Success test ---> testRegistration
+00:29:47.915 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+00:29:47.916 [Test worker] INFO  TestBase - =====================================================================================================
+00:29:47.928 [Test worker] INFO  TestBase - Started test ---> testRegistration
+00:29:47.928 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+00:29:52.630 [Test worker] INFO  NGListener - Success test ---> testRegistration
+00:29:52.635 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+00:29:52.640 [Test worker] INFO  TestBase - =====================================================================================================
+00:29:52.656 [Test worker] INFO  NGListener - Test finished
+00:34:11.416 [Test worker] INFO  NGListener - Test started
+00:34:11.443 [Test worker] INFO  TestBase - Started test ---> testRegistration
+00:34:11.626 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+00:34:11.633 [Test worker] INFO  NGListener - Success test ---> testRegistration
+00:34:11.636 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+00:34:11.637 [Test worker] INFO  TestBase - =====================================================================================================
+00:34:11.639 [Test worker] INFO  TestBase - Started test ---> testRegistration
+00:34:11.859 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+00:34:16.777 [Test worker] INFO  NGListener - Success test ---> testRegistration
+00:34:16.788 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+00:34:16.792 [Test worker] INFO  TestBase - =====================================================================================================
+00:34:16.796 [Test worker] INFO  TestBase - Started test ---> testRegistration
+00:34:16.946 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+00:34:21.650 [Test worker] INFO  NGListener - Success test ---> testRegistration
+00:34:21.653 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+00:34:21.654 [Test worker] INFO  TestBase - =====================================================================================================
+00:34:21.669 [Test worker] INFO  NGListener - Test finished
+00:44:15.869 [Test worker] INFO  NGListener - Test started
+00:44:15.907 [Test worker] INFO  NGListener - Failure  test ---> org.testng.internal.reflect.MethodMatcherException: 
+[public void TestLoginPostitiveTests.testLogin(object_model.User_model)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: testLogin([Parameter{index=0, type=object_model.User_model, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) positive,(object_model.User_model) User_model(email=ftoгfpsd@gmail.com, password=asdsbzsd@M2),(java.lang.String) added contact]
+00:44:15.912 [Test worker] INFO  NGListener - Test finished
+00:44:55.551 [Test worker] INFO  NGListener - Test started
+00:44:55.589 [Test worker] INFO  NGListener - Failure  test ---> org.testng.internal.reflect.MethodMatcherException: 
+[public void TestLoginPostitiveTests.testLogin(object_model.User_model)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: testLogin([Parameter{index=0, type=object_model.User_model, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) positive,(object_model.User_model) User_model(email=ftoгfpsd@gmail.com, password=asdsbzsd@M2),(java.lang.String) added contact]
+00:44:55.599 [Test worker] INFO  NGListener - Test finished
+00:49:57.562 [Test worker] INFO  NGListener - Test started
+00:49:57.652 [Test worker] INFO  NGListener - Failure  test ---> org.testng.internal.reflect.MethodMatcherException: 
+[public void TestLoginPostitiveTests.testLogin(java.lang.String,object_model.User_model)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: testLogin([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=object_model.User_model, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) positive,(object_model.User_model) User_model(email=ftoгfpsd@gmail.com, password=asdsbzsd@M2),(java.lang.String) ]
+00:49:57.682 [Test worker] INFO  NGListener - Test finished
+00:55:12.193 [Test worker] INFO  NGListener - Test started
+00:55:12.263 [Test worker] INFO  TestBase - Started test ---> testLogin
+00:55:12.267 [Test worker] INFO  NGListener - Start of the test ---> testLogin
+00:55:12.273 [Test worker] INFO  TestBase - Finished test ---> testLogin
+00:55:12.273 [Test worker] INFO  TestBase - =====================================================================================================
+00:55:12.279 [Test worker] INFO  NGListener - Test finished
+00:55:59.958 [Test worker] INFO  NGListener - Test started
+00:56:00.039 [Test worker] INFO  TestBase - Started test ---> testLogin
+00:56:00.048 [Test worker] INFO  NGListener - Start of the test ---> testLogin
+00:56:00.053 [Test worker] INFO  TestBase - Finished test ---> testLogin
+00:56:00.053 [Test worker] INFO  TestBase - =====================================================================================================
+00:56:00.062 [Test worker] INFO  NGListener - Test finished
+00:58:55.291 [Test worker] INFO  NGListener - Test started
+00:58:55.351 [Test worker] INFO  TestBase - Started test ---> testLogin
+00:58:55.356 [Test worker] INFO  NGListener - Start of the test ---> testLogin
+00:58:55.356 [Test worker] INFO  TestBase - Finished test ---> testLogin
+00:58:55.356 [Test worker] INFO  TestBase - =====================================================================================================
+00:58:55.363 [Test worker] INFO  NGListener - Test finished
+01:03:39.487 [Test worker] INFO  NGListener - Test started
+01:03:39.561 [Test worker] INFO  TestBase - Started test ---> testLogin
+01:03:39.568 [Test worker] INFO  NGListener - Start of the test ---> testLogin
+01:03:39.572 [Test worker] INFO  TestBase - Finished test ---> testLogin
+01:03:39.572 [Test worker] INFO  TestBase - =====================================================================================================
+01:03:39.580 [Test worker] INFO  NGListener - Test finished
+01:06:01.977 [Test worker] INFO  NGListener - Test started
+01:06:02.157 [Test worker] INFO  TestBase - Started test ---> testRegistration
+01:06:02.167 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+01:06:02.171 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+01:06:02.173 [Test worker] INFO  TestBase - =====================================================================================================
+01:06:02.180 [Test worker] INFO  TestBase - Started test ---> testRegistration
+01:06:02.182 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+01:06:02.186 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+01:06:02.188 [Test worker] INFO  TestBase - =====================================================================================================
+01:06:02.188 [Test worker] INFO  TestBase - Started test ---> testRegistration
+01:06:02.197 [Test worker] INFO  NGListener - Start of the test ---> testRegistration
+01:06:02.211 [Test worker] INFO  TestBase - Finished test ---> testRegistration
+01:06:02.213 [Test worker] INFO  TestBase - =====================================================================================================
+01:06:02.219 [Test worker] INFO  NGListener - Test finished
