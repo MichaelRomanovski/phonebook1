@@ -47,6 +47,9 @@ public class ContactPage extends HelperUser
     @FindBy(xpath = "//*[@resource-id='com.sheygam.contactapp:id/descTxt']")
     WebElement descriptionText;
 
+    @FindBy(xpath = "//button[.='Remove']")
+    WebElement remove_button;
+
 
     public void go_to_add_contact(){
 
@@ -69,6 +72,21 @@ return this;
 public boolean contact_is_added(String contact){
     return nameText.getText().contains(contact) || phoneText.getText().contains(contact);
 }
+
+public void delete_contact(){
+if(contactList.isEmpty())
+    return;
+item_of_added_contact.click();
+remove_button.click();
+
+}
+
+
+
+
+
+
+
 
     }
 

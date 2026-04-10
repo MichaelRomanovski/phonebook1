@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 @Listeners(NGListener.class)
 public class AddContactTest_Positive extends TestBase {
-    @BeforeMethod
+    @BeforeMethod()
     public void login_before_add_contact() {
         HelperUser helperUser = new HelperUser(app.wd);
         if (!helperUser.user_logged()) {
@@ -14,7 +14,12 @@ public class AddContactTest_Positive extends TestBase {
             helperUser.login("ftoгfpsd@gmail.com", "asdsbzsd@M2").go_to_add_contact();
         }
     }
-@Test(dataProvider = "data_new_contact",dataProviderClass = Data_Provider.class)
+    @BeforeMethod(alwaysRun = true)
+    public void refreshPage() {
+        app.wd.navigate().refresh();
+    }
+
+    @Test(dataProvider = "data_new_contact",dataProviderClass = Data_Provider.class)
 public void add_contact(String type,Contact_model contact,String added_contact) {
         if(!type.startsWith("positive"))
             return;
@@ -24,7 +29,7 @@ public void add_contact(String type,Contact_model contact,String added_contact) 
             .phone(contact.getPhone())
             .email(contact.getEmail()).address(contact.getAddress())
             .build());
-    new AddContact_page(app.wd).click_on_save_btn().scrollingList().contact_is_added(added_contact);
+    new AddContact_page(app.wd).click_on_save_btn_going_to_contact_page().scrollingList().contact_is_added(added_contact);
 
 
 

@@ -2,12 +2,11 @@ import object_model.User_model;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 @Listeners(NGListener.class)
-public class TestLoginPostitiveTests extends TestBase {
+public class Test_Login_Postitive_Tests extends TestBase {
     @BeforeMethod
     public void logout(){
         HelperUser user=new HelperUser(app.wd);
@@ -17,10 +16,6 @@ public class TestLoginPostitiveTests extends TestBase {
             Assert.assertTrue(user.isElementPresent(By.xpath("//a[@href='/login']")));
         }
 
-    }
-    @BeforeMethod
-    public void refreshPage() {
-        app.wd.navigate().refresh();
     }
 
 

@@ -2,9 +2,8 @@ import object_model.User_model;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
-public class testRegistrationNegative extends TestBase{
+public class test_Registration_Negative extends TestBase{
     @BeforeMethod(alwaysRun = true)
     public void logout(){
         HelperUser user=new HelperUser(app.wd);

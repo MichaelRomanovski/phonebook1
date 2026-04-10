@@ -1,53 +1,106 @@
-19:12:30.733 [Test worker] INFO  NGListener - Test started
-19:12:30.829 [Test worker] INFO  TestBase - Started test ---> add_contact
-19:12:30.853 [Test worker] INFO  NGListener - Start of the test ---> add_contact
-19:12:30.858 [Test worker] INFO  TestBase - Finished test ---> add_contact
-19:12:30.860 [Test worker] INFO  TestBase - =====================================================================================================
-19:12:30.866 [Test worker] INFO  NGListener - Test finished
-19:17:58.410 [Test worker] INFO  NGListener - Test started
-19:17:58.481 [Test worker] INFO  TestBase - Started test ---> add_contact
-19:17:58.506 [Test worker] INFO  NGListener - Start of the test ---> add_contact
-19:17:58.510 [Test worker] INFO  TestBase - Finished test ---> add_contact
-19:17:58.510 [Test worker] INFO  TestBase - =====================================================================================================
-19:17:58.516 [Test worker] INFO  NGListener - Test finished
-19:20:09.267 [Test worker] INFO  NGListener - Test started
-19:20:09.348 [Test worker] INFO  TestBase - Started test ---> add_contact
-19:20:09.358 [Test worker] INFO  NGListener - Start of the test ---> add_contact
-19:20:09.362 [Test worker] INFO  TestBase - Finished test ---> add_contact
-19:20:09.362 [Test worker] INFO  TestBase - =====================================================================================================
-19:20:09.367 [Test worker] INFO  NGListener - Test finished
-19:25:38.001 [Test worker] INFO  NGListener - Test started
-19:25:38.076 [Test worker] INFO  TestBase - Started test ---> add_contact
-19:25:54.161 [Test worker] INFO  NGListener - Start of the test ---> add_contact
-19:26:00.178 [Test worker] INFO  NGListener - Failure  test ---> org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text :  Phone not valid: Phone number must contain only digits! And length min 10, max 15!}
-  (Session info: chrome=146.0.7680.178):  Phone not valid: Phone number must contain only digits! And length min 10, max 15!
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f942fa9bafa387f5f0935545cbbac829, findElements {using=xpath, value=//div[@class='contact-item_card__2SOIM']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\simon\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58096}, goog:processID: 21908, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58096/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f942fa9bafa387f5f0935545cbbac829
-19:26:00.206 [Test worker] INFO  TestBase - Finished test ---> add_contact
-19:26:00.213 [Test worker] INFO  TestBase - =====================================================================================================
-19:26:00.241 [Test worker] INFO  NGListener - Test finished
-19:26:57.387 [Test worker] INFO  NGListener - Test started
-19:26:57.444 [Test worker] INFO  TestBase - Started test ---> add_contact
-19:27:13.215 [Test worker] INFO  NGListener - Start of the test ---> add_contact
-19:27:18.977 [Test worker] INFO  NGListener - Failure  test ---> org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text :  Phone not valid: Phone number must contain only digits! And length min 10, max 15!}
-  (Session info: chrome=146.0.7680.178):  Phone not valid: Phone number must contain only digits! And length min 10, max 15!
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ea37dbd5a494db1f6930a03cc5df7322, findElements {using=xpath, value=//div[@class='contact-item_card__2SOIM']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\simon\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54561}, goog:processID: 35020, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54561/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ea37dbd5a494db1f6930a03cc5df7322
-19:27:18.994 [Test worker] INFO  TestBase - Finished test ---> add_contact
-19:27:18.995 [Test worker] INFO  TestBase - =====================================================================================================
-19:27:19.004 [Test worker] INFO  NGListener - Test finished
-19:27:50.259 [Test worker] INFO  NGListener - Test started
-19:27:50.346 [Test worker] INFO  TestBase - Started test ---> add_contact
-19:28:06.032 [Test worker] INFO  NGListener - Start of the test ---> add_contact
-19:28:12.355 [Test worker] INFO  NGListener - Success test ---> add_contact
-19:28:12.355 [Test worker] INFO  TestBase - Finished test ---> add_contact
-19:28:12.355 [Test worker] INFO  TestBase - =====================================================================================================
-19:28:12.367 [Test worker] INFO  NGListener - Test finished
+13:57:50.910 [Test worker] INFO  NGListener - Test started
+13:57:51.031 [Test worker] INFO  TestBase - Started test ---> testlogin
+13:57:51.040 [Test worker] INFO  NGListener - Start of the test ---> testlogin
+13:57:51.110 [Test worker] INFO  NGListener - Success test ---> testlogin
+13:57:51.115 [Test worker] INFO  TestBase - Finished test ---> testlogin
+13:57:51.117 [Test worker] INFO  TestBase - =====================================================================================================
+13:57:51.122 [Test worker] INFO  TestBase - Started test ---> testlogin
+13:57:51.122 [Test worker] INFO  NGListener - Start of the test ---> testlogin
+13:57:57.416 [Test worker] INFO  NGListener - Success test ---> testlogin
+13:57:57.419 [Test worker] INFO  TestBase - Finished test ---> testlogin
+13:57:57.423 [Test worker] INFO  TestBase - =====================================================================================================
+13:57:57.446 [Test worker] INFO  NGListener - Test finished
+14:00:47.724 [Test worker] INFO  NGListener - Test started
+14:00:47.800 [Test worker] INFO  TestBase - Started test ---> testlogin
+14:00:57.870 [Test worker] INFO  NGListener - Start of the test ---> testlogin
+14:00:57.912 [Test worker] INFO  NGListener - Success test ---> testlogin
+14:00:57.916 [Test worker] INFO  TestBase - Finished test ---> testlogin
+14:00:57.917 [Test worker] INFO  TestBase - =====================================================================================================
+14:00:57.918 [Test worker] INFO  TestBase - Started test ---> testlogin
+14:01:07.944 [Test worker] INFO  NGListener - Start of the test ---> testlogin
+14:01:13.401 [Test worker] INFO  NGListener - Success test ---> testlogin
+14:01:13.415 [Test worker] INFO  TestBase - Finished test ---> testlogin
+14:01:13.428 [Test worker] INFO  TestBase - =====================================================================================================
+14:01:13.454 [Test worker] INFO  NGListener - Test finished
+14:09:49.577 [Test worker] INFO  NGListener - Test started
+14:09:49.614 [Test worker] INFO  TestBase - Started test ---> add_contact
+14:10:05.838 [Test worker] INFO  NGListener - Start of the test ---> add_contact
+14:10:12.077 [Test worker] INFO  NGListener - Success test ---> add_contact
+14:10:12.081 [Test worker] INFO  TestBase - Finished test ---> add_contact
+14:10:12.081 [Test worker] INFO  TestBase - =====================================================================================================
+14:10:12.086 [Test worker] INFO  NGListener - Test finished
+14:11:12.639 [Test worker] INFO  NGListener - Test started
+14:11:12.761 [Test worker] INFO  TestBase - Started test ---> testLogin
+14:11:23.016 [Test worker] INFO  NGListener - Start of the test ---> testLogin
+14:11:28.553 [Test worker] INFO  NGListener - Success test ---> testLogin
+14:11:28.556 [Test worker] INFO  TestBase - Finished test ---> testLogin
+14:11:28.556 [Test worker] INFO  TestBase - =====================================================================================================
+14:11:28.559 [Test worker] INFO  TestBase - Started test ---> testLogin
+14:11:28.902 [Test worker] INFO  NGListener - Start of the test ---> testLogin
+14:11:28.903 [Test worker] INFO  NGListener - Success test ---> testLogin
+14:11:28.908 [Test worker] INFO  TestBase - Finished test ---> testLogin
+14:11:28.909 [Test worker] INFO  TestBase - =====================================================================================================
+14:11:28.918 [Test worker] INFO  NGListener - Test finished
+14:11:56.037 [Test worker] INFO  NGListener - Test started
+14:11:56.118 [Test worker] INFO  TestBase - Started test ---> testLogin
+14:12:06.161 [Test worker] INFO  NGListener - Start of the test ---> testLogin
+14:12:11.668 [Test worker] INFO  NGListener - Success test ---> testLogin
+14:12:11.670 [Test worker] INFO  TestBase - Finished test ---> testLogin
+14:12:11.670 [Test worker] INFO  TestBase - =====================================================================================================
+14:12:11.673 [Test worker] INFO  TestBase - Started test ---> testLogin
+14:12:11.942 [Test worker] INFO  NGListener - Start of the test ---> testLogin
+14:12:11.942 [Test worker] INFO  NGListener - Success test ---> testLogin
+14:12:11.949 [Test worker] INFO  TestBase - Finished test ---> testLogin
+14:12:11.952 [Test worker] INFO  TestBase - =====================================================================================================
+14:12:11.960 [Test worker] INFO  NGListener - Test finished
+14:29:49.973 [Test worker] INFO  NGListener - Test started
+14:29:50.047 [Test worker] INFO  TestBase - Started test ---> testlogin
+14:30:00.115 [Test worker] INFO  NGListener - Start of the test ---> testlogin
+14:30:00.154 [Test worker] INFO  NGListener - Success test ---> testlogin
+14:30:00.157 [Test worker] INFO  TestBase - Finished test ---> testlogin
+14:30:00.157 [Test worker] INFO  TestBase - =====================================================================================================
+14:30:00.160 [Test worker] INFO  TestBase - Started test ---> testlogin
+14:30:10.184 [Test worker] INFO  NGListener - Start of the test ---> testlogin
+14:30:15.518 [Test worker] INFO  NGListener - Success test ---> testlogin
+14:30:15.534 [Test worker] INFO  TestBase - Finished test ---> testlogin
+14:30:15.537 [Test worker] INFO  TestBase - =====================================================================================================
+14:30:15.541 [Test worker] INFO  TestBase - Started test ---> testlogin
+14:30:25.644 [Test worker] INFO  NGListener - Start of the test ---> testlogin
+14:30:30.460 [Test worker] INFO  NGListener - Success test ---> testlogin
+14:30:30.467 [Test worker] INFO  TestBase - Finished test ---> testlogin
+14:30:30.468 [Test worker] INFO  TestBase - =====================================================================================================
+14:30:30.482 [Test worker] INFO  NGListener - Test finished
+14:31:13.462 [Test worker] INFO  NGListener - Test started
+14:31:13.559 [Test worker] INFO  TestBase - Started test ---> testlogin
+14:31:23.801 [Test worker] INFO  NGListener - Start of the test ---> testlogin
+14:31:23.902 [Test worker] INFO  NGListener - Success test ---> testlogin
+14:31:23.905 [Test worker] INFO  TestBase - Finished test ---> testlogin
+14:31:23.907 [Test worker] INFO  TestBase - =====================================================================================================
+14:31:23.913 [Test worker] INFO  TestBase - Started test ---> testlogin
+14:31:34.061 [Test worker] INFO  NGListener - Start of the test ---> testlogin
+14:31:39.536 [Test worker] INFO  NGListener - Success test ---> testlogin
+14:31:39.545 [Test worker] INFO  TestBase - Finished test ---> testlogin
+14:31:39.549 [Test worker] INFO  TestBase - =====================================================================================================
+14:31:39.556 [Test worker] INFO  TestBase - Started test ---> testlogin
+14:31:49.764 [Test worker] INFO  NGListener - Start of the test ---> testlogin
+14:31:54.593 [Test worker] INFO  NGListener - Success test ---> testlogin
+14:31:54.597 [Test worker] INFO  TestBase - Finished test ---> testlogin
+14:31:54.599 [Test worker] INFO  TestBase - =====================================================================================================
+14:31:54.617 [Test worker] INFO  NGListener - Test finished
+14:32:54.247 [Test worker] INFO  NGListener - Test started
+14:32:54.337 [Test worker] INFO  TestBase - Started test ---> testlogin
+14:33:04.548 [Test worker] INFO  NGListener - Start of the test ---> testlogin
+14:33:04.621 [Test worker] INFO  NGListener - Success test ---> testlogin
+14:33:04.627 [Test worker] INFO  TestBase - Finished test ---> testlogin
+14:33:04.627 [Test worker] INFO  TestBase - =====================================================================================================
+14:33:04.638 [Test worker] INFO  TestBase - Started test ---> testlogin
+14:33:14.814 [Test worker] INFO  NGListener - Start of the test ---> testlogin
+14:33:20.219 [Test worker] INFO  NGListener - Success test ---> testlogin
+14:33:20.226 [Test worker] INFO  TestBase - Finished test ---> testlogin
+14:33:20.231 [Test worker] INFO  TestBase - =====================================================================================================
+14:33:20.241 [Test worker] INFO  TestBase - Started test ---> testlogin
+14:33:30.517 [Test worker] INFO  NGListener - Start of the test ---> testlogin
+14:33:35.338 [Test worker] INFO  NGListener - Success test ---> testlogin
+14:33:35.344 [Test worker] INFO  TestBase - Finished test ---> testlogin
+14:33:35.346 [Test worker] INFO  TestBase - =====================================================================================================
+14:33:35.369 [Test worker] INFO  NGListener - Test finished

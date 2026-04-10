@@ -46,6 +46,12 @@ public class LoginRegistrationPage extends HelperUser {
         login_button.click();
         pause(4000);
     }
+    public AddContact_page click_on_LOGIN_btn_going_to_addcontact_page() {
+        login_button.click();
+        pause(4000);
+        return new AddContact_page(driver);
+    }
+
 
     public boolean is_current_page() {
 
@@ -54,6 +60,7 @@ public class LoginRegistrationPage extends HelperUser {
 
 
     }
+
 
 
 }

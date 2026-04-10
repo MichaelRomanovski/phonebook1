@@ -46,12 +46,16 @@ public class AddContact_page extends HelperUser {
     }
 
 
-public ContactPage click_on_save_btn(){
+public void click_on_save_btn(){
         save_btn.click();
         pause(2000);
-return new ContactPage(driver);
+
 }
 
-
+    public ContactPage click_on_save_btn_going_to_contact_page(){
+        save_btn.click();
+        pause(2000);
+        return new ContactPage(driver);
+    }
 
 }
