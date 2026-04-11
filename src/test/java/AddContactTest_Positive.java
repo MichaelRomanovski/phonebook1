@@ -1,5 +1,4 @@
 import object_model.Contact_model;
-import object_model.User_model;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -29,7 +28,7 @@ public void add_contact(String type,Contact_model contact,String added_contact) 
             .phone(contact.getPhone())
             .email(contact.getEmail()).address(contact.getAddress())
             .build());
-    new AddContact_page(app.wd).click_on_save_btn_going_to_contact_page().scrollingList().contact_is_added(added_contact);
+    new AddContact_page(app.wd).click_on_save_btn_going_to_contact_page().contact_is_added(added_contact);
 
 
 

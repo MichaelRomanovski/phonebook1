@@ -6,7 +6,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 @Listeners(NGListener.class)
-public class Test_Login_Postitive_Tests extends TestBase {
+public class Test_Login_Postitive_Test extends TestBase {
     @BeforeMethod
     public void logout(){
         HelperUser user=new HelperUser(app.wd);

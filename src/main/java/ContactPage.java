@@ -15,7 +15,7 @@ public class ContactPage extends HelperUser
         super(driver);
     }
 
-@FindBy(xpath = "//*[.='CONTACTS']")
+    @FindBy(xpath = "//*[.='CONTACTS']")
     WebElement conatcts_link;
 
     @FindBy(xpath = "//*[.='ADD']")
@@ -30,7 +30,7 @@ public class ContactPage extends HelperUser
     List<WebElement> contactList;
 
     @FindBy(xpath = "//div[@class='contact-item-detailed_card__50dTS']//h2")
-   WebElement nameText;
+    WebElement nameText;
 
     @FindBy(id="com.sheygam.contactapp:id/lastNameTxt")
     WebElement lastNameText;
@@ -53,42 +53,49 @@ public class ContactPage extends HelperUser
 
     public void go_to_add_contact(){
 
-ADD_LINK.click();
+        ADD_LINK.click();
 
 
     }
 
     public ContactPage scrollingList() {
-pause(2000);
+        pause(2000);
 
         WebElement lastItem = contactList.get(contactList.size() - 1);
         Actions actions=new Actions(driver);
         actions.moveToElement(lastItem).perform();
         lastItem.click();
-return this;
-      }
+        return this;
+    }
 
 
-public boolean contact_is_added(String contact){
-    return nameText.getText().contains(contact) || phoneText.getText().contains(contact);
-}
+    public boolean contact_is_added(String contact){
+        return nameText.getText().contains(contact) || phoneText.getText().contains(contact);
+    }
 
-public void delete_contact(){
-if(contactList.isEmpty())
-    return;
-item_of_added_contact.click();
-remove_button.click();
+    public void delete_contact(String contact) {
+        if (contactList.isEmpty())
+            return;
+scrollingList();
+        for (WebElement el : contactList) {
+            if (el.getText().contains(contact)) {
+                el.click(); // открыть контакт
+                break;
+            }
+        }
 
-}
-
-
-
-
-
-
-
-
+        pause(1000);
+        remove_button.click();
     }
 
 
 
+    public boolean check_contact_deleted(String contact) {
+        pause(2000); // лучше заменить на wait, но пока так
+
+        return contactList.stream()
+                .noneMatch(el -> el.getText().contains(contact));
+    }
+
+
+}
