@@ -91,7 +91,7 @@ scrollingList();
 
 
     public boolean check_contact_deleted(String contact) {
-        pause(2000); // лучше заменить на wait, но пока так
+        pause(2000);
 
         return contactList.stream()
                 .noneMatch(el -> el.getText().contains(contact));
