@@ -7,9 +7,7 @@ import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
-public class ContactPage extends HelperUser
-
-{
+public class ContactPage extends HelperUser {
 
     public ContactPage(WebDriver driver) {
         super(driver);
@@ -32,7 +30,7 @@ public class ContactPage extends HelperUser
     @FindBy(xpath = "//div[@class='contact-item-detailed_card__50dTS']//h2")
     WebElement nameText;
 
-    @FindBy(id="com.sheygam.contactapp:id/lastNameTxt")
+    @FindBy(id = "com.sheygam.contactapp:id/lastNameTxt")
     WebElement lastNameText;
 
     @FindBy(xpath = "//*[@resource-id='com.sheygam.contactapp:id/emailTxt']")
@@ -51,7 +49,7 @@ public class ContactPage extends HelperUser
     WebElement remove_button;
 
 
-    public void go_to_add_contact(){
+    public void go_to_add_contact() {
 
         ADD_LINK.click();
 
@@ -62,21 +60,22 @@ public class ContactPage extends HelperUser
         pause(2000);
 
         WebElement lastItem = contactList.get(contactList.size() - 1);
-        Actions actions=new Actions(driver);
+        Actions actions = new Actions(driver);
         actions.moveToElement(lastItem).perform();
         lastItem.click();
         return this;
     }
 
 
-    public boolean contact_is_added(String contact){
+    public boolean contact_is_added(String contact) {
+        scrollingList();
         return nameText.getText().contains(contact) || phoneText.getText().contains(contact);
     }
 
     public void delete_contact(String contact) {
         if (contactList.isEmpty())
             return;
-scrollingList();
+        scrollingList();
         for (WebElement el : contactList) {
             if (el.getText().contains(contact)) {
                 el.click(); // открыть контакт
@@ -84,18 +83,21 @@ scrollingList();
             }
         }
 
-        pause(1000);
         remove_button.click();
     }
 
 
-
     public boolean check_contact_deleted(String contact) {
+
         pause(2000);
 
-        return contactList.stream()
-                .noneMatch(el -> el.getText().contains(contact));
+        for (WebElement el : contactList) {
+            System.out.println("CONTACT: " + el.getText());
+            if (el.getText().contains(contact)) {
+                return false;
+            }
+        }
+        return true;
+
     }
-
-
 }
