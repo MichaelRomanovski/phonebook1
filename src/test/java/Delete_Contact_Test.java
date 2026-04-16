@@ -20,11 +20,11 @@ public class Delete_Contact_Test extends TestBase {
 }
 @Test(dataProvider = "data_new_contact",dataProviderClass = Data_Provider.class)
     public void delete_contact(String type,Contact_model contact,String added_contact){
-if(!type.startsWith("positive"))
-    return;
-
-new ContactPage(app.wd).delete_contact(added_contact);
-Assert.assertTrue(new ContactPage(app.wd).check_contact_deleted(added_contact));
+//if(!type.startsWith("positive"))
+   // return;
+ContactPage page=new ContactPage(app.wd);
+page.delete_contact(added_contact);
+Assert.assertTrue(page.check_contact_deleted(added_contact));
 
 
 

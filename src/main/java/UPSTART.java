@@ -40,7 +40,7 @@ public class UPSTART {
 
         wd.navigate().to("https://telranedu.web.app/home");
         wd.manage().window().maximize();
-        wd.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        wd.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
     }
 
     public void close_browser() {
